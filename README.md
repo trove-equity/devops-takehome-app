@@ -1,5 +1,14 @@
 # Devops Takehome app
 
+## MySQL
+MySQL table: `ping_pong`
+
+Table columns:
+ - `id`
+ - `value`
+
+
+## App
 Env variables:
  - `DATABASE_NAME`
  - `DATABASE_HOST`
@@ -8,14 +17,11 @@ Env variables:
  - `DATABASE_PASSWORD`
  
  App runs on port: **3000**
- 
- MySQL table: `ping_pong`
- 
  To start the app: `node index.js`
  
- ## Endpoints
- ### `/ping`
+ ### Endpoints
+ #### `/ping`
  Should return `{"ping": "pong"}`
  
- ### `/pong`
+ #### `/pong`
  Should return `{"pong": "ping"}`
