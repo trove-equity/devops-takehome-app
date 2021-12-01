@@ -17,7 +17,6 @@ const db = mysql2.createConnection({
   password: DATABASE_PASSWORD,
   database: DATABASE_NAME,
   port: DATABASE_PORT,
-  insecureAuth: true,
 });
 
 db.connect((error) => {
