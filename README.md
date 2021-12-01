@@ -1,14 +1,15 @@
 # Devops Takehome app
 
 Env variables:
- - DATABASE_NAME
- - DATABASE_HOST
- - DATABASE_PORT
- - DATABASE_USERNAME
- - DATABASE_PASSWORD
+ - `DATABASE_NAME`
+ - `DATABASE_HOST`
+ - `DATABASE_PORT`
+ - `DATABASE_USERNAME`
+ - `DATABASE_PASSWORD`
  
- App runs on port: 3000
- MySQL table: ping_pong
+ App runs on port: **3000**
+ 
+ MySQL table: `ping_pong`
  
  To start the app: `node index.js`
  
