@@ -7,7 +7,6 @@ Table columns:
  - `id`
  - `value`
 
-
 ## App
 Env variables:
  - `DATABASE_NAME`
